@@ -5,7 +5,7 @@ Notiflix.Notify.init({
   timeout: 5000,
 //   useIcon: false,
   fontSize: '20px',
-  width: '350px',
+  width: '400px',
 });
 export default function fetchCountries(Name) {
   const countriesListHtml = document.querySelector('.country-list');
